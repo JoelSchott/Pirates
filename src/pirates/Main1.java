@@ -62,7 +62,7 @@ public class Main1 {
 			}
 		}
 		
-		File portFile = new File("C:\\Eclipse\\workspace\\Java Udemy\\src\\Port.png");
+		File portFile = new File("C:\\Users\\Computer\\IdeaProjects\\NewPirates\\src\\images\\Port.png");
 		try {
 			PORT_IMAGE = ImageIO.read(portFile);
 		} catch (IOException e1) {
@@ -85,7 +85,7 @@ public class Main1 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 		frame.setTitle("Pirates");
-		File frameFile = new File("C:\\Eclipse\\workspace\\Java Udemy\\src\\piratecover.jpg");
+		File frameFile = new File("C:\\Users\\Computer\\IdeaProjects\\NewPirates\\src\\images\\piratecover.jpg");
 		Image image = null;
 		try {
 			image = ImageIO.read(frameFile);
